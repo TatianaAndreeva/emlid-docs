@@ -15,4 +15,4 @@ Choose a coordinate system based on `CH1903` (such as `CH1903 / LV03`) or `CH190
 
 Your base or NTRIP service should be in `ETRS89`. The following methods are used to perform the datum conversion: `CHENyx06` grid, `Helmert (7-parameters)`.
 
-When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings* ⇒ *Base mode* tab.
+When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings / Base mode*.

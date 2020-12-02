@@ -4,19 +4,19 @@
 
 ### Coordinate System
 
-Choose a coordinate system based on `ETRS89` (such as `ETRS89 / Portugal TM06`) or `PTRA08` (such as `PTRA08 / UTM zone 25N`) datums.
+Choose a coordinate system based on `ETRS89` (such as `ETRS89 / Portugal TM06`) or `PTRA08` (such as `PTRA08 / UTM zone 25N`) datums.
 
 ### Vertical Datum
 
-Choose one of the available vertical datums: `Portugal GEODPT08 height`.
+Choose the `Portugal GEODPT08 height` vertical datum.
 
-The following geoids can be used to perform the transformation: `GEODPT08`.
+The `GEODPT08` geoid is used to perform the transformation.
 
 ## Base Setup
 
-Your base or NTRIP service should be in `ETRS89` or `PTRA08` depending on which datum is used.
+Your base or NTRIP service should be in `ETRS89` or `PTRA08`, depending on which datum is used.
 
 !!! note ""
-	`ETRS89` datum is used on the mainland, and `PTRA08` on the Azores islands.
+	The `ETRS89` datum is used on the mainland, and `PTRA08` on the Azores islands.
 
-When setting up a base station on a benchmark, enter `ETRS89` or `PTRA08` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings* ⇒ *Base mode* tab.
+When setting up a base station on a benchmark, enter `ETRS89` or `PTRA08` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings / Base mode*.

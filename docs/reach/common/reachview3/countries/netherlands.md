@@ -4,16 +4,16 @@
 
 ### Coordinate System
 
-Choose a coordinate system based on `Amersfoort` datum (such as `Amersfoort / RD New`).
+Choose a coordinate system based on the `Amersfoort` datum (such as `Amersfoort / RD New`).
 
 ### Vertical Datum
 
-Choose one of the available vertical datums: `NAP height`.
+Choose the `NAP height` vertical datum.
 
-The following geoids can be used to perform the transformation: `NLGEO2018`.
+The `NLGEO2018` geoid is used to perform the transformation.
 
 ## Base Setup
 
-Your base or NTRIP service should be in `ETRS89`. The following methods are used to perform the datum conversion: `RDTRANS2018` grid.
+Your base or NTRIP service should be in `ETRS89`. The `RDTRANS2018` grid is used to perform the datum conversion.
 
-When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings* ⇒ *Base mode* tab.
+When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings / Base mode*.

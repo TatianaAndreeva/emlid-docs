@@ -4,22 +4,22 @@
 
 ### Coordinate System
 
-Choose a coordinate system based on `LKS92` datum (such as `LKS92 / Latvia TM`).
+Choose a coordinate system based on the `LKS92` datum (such as `LKS92 / Latvia TM`).
 
 ### Vertical Datum
 
-Choose one of the available vertical datums: `Latvia 2000 height`.
+Choose the `Latvia 2000 height` vertical datum.
 
-The following geoids can be used to perform the transformation: `LV_14`.
+The `LV_14` geoid is used to perform the transformation.
 
 !!! note ""
-	Consider `Latvia 2000 height` vertical datum as `LAS-2000,5 height` in this case.
+	Consider the `Latvia 2000 height` vertical datum as `LAS-2000,5 height` in this case.
 
 ## Base Setup
 
 Your base or NTRIP service should be in `LKS92`.
 
 !!! note ""
-	`LKS92` datum is a national realization of `ETRS89`.
+	The `LKS92` datum is a national realization of `ETRS89`.
 
-When setting up a base station on a benchmark, enter `LKS92` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings* ⇒ *Base mode* tab.
+When setting up a base station on a benchmark, enter `LKS92` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings / Base mode*.

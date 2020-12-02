@@ -4,16 +4,16 @@
 
 ### Coordinate System
 
-Choose a coordinate system based on `Pulkovo 1942(58)` datum (such as `Pulkovo 1942(58) / Stereo70`).
+Choose a coordinate system based on the `Pulkovo 1942(58)` datum (such as `Pulkovo 1942(58) / Stereo70`).
 
 ### Vertical Datum
 
-Choose one of the available vertical datums: `Romania MN75 height`.
+Choose the `Romania MN75 height` vertical datum.
 
-The following geoids can be used to perform the transformation: `MN75`.
+The `MN75` geoid is used to perform the transformation.
 
 ## Base Setup
 
-Your base or NTRIP service should be in `ETRS89`. The following methods are used to perform the datum conversion: `Stereo70_ERTS89A` grid.
+Your base or NTRIP service should be in `ETRS89`. The `Stereo70_ERTS89A` grid is used to perform the datum conversion.
 
-When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings* ⇒ *Base mode* tab.
+When setting up a base station on a benchmark, enter `ETRS89` geographic coordinates (lat/long) and ellipsoidal height in the ReachView 3 *Settings / Base mode*.
